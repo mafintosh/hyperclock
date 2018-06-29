@@ -1,6 +1,6 @@
 {
   "name": "hyperclock",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Distributed, secure clock over a hypercore",
   "main": "index.js",
   "dependencies": {
