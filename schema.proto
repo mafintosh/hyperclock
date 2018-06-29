@@ -1,0 +1,8 @@
+message Header {
+  required string type = 1;
+}
+
+message Entry {
+  required uint64 time = 1;
+  required bytes random = 2;
+}

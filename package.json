@@ -1,0 +1,29 @@
+{
+  "name": "hyperclock",
+  "version": "0.0.0",
+  "description": "Distributed, secure clock over a hypercore",
+  "main": "index.js",
+  "dependencies": {
+    "hypercore": "^6.17.1",
+    "is-options": "^1.0.1",
+    "protocol-buffers-encodings": "^1.1.0"
+  },
+  "devDependencies": {
+    "protocol-buffers": "^4.0.4",
+    "standard": "^11.0.1"
+  },
+  "scripts": {
+    "test": "standard",
+    "protobuf": "protocol-buffers schema.proto -o messages.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mafintosh/hyperclock.git"
+  },
+  "author": "Mathias Buus (@mafintosh)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mafintosh/hyperclock/issues"
+  },
+  "homepage": "https://github.com/mafintosh/hyperclock"
+}
